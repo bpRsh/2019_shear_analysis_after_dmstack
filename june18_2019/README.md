@@ -1,5 +1,11 @@
-# Introduction
+Table of Contents
+=================
+   * [Introduction](#introduction)
+   * [June 18, 2019 Tue](#june-18-2019-tue)
+   * [June 20, 2019 Thu](#june-20-2019-thu)
+   * [July 16, 2019 Tue](#july-16-2019-tue)
 
+# Introduction
 1. In jedisim we used ngals = 10k, z = 1.5 and did 100 simulations. jedisim gives l,l9,m,m9 for each 100 simulations respectively for lsst, lsst90, monochormatic and monochromatic90 cases. In jedisim we have total 100*4 = 400 fits files.
 
 2. From jedisim we get l.fits file and from this file using dmstack we get l.csv file. From 400 jedisim output fitsfiles, we get 400 dmstack output csv files. Each dmstack output csv file has 90 flags and 76 parameters, i.e. in total it has 90+76 = 166 columns such as fluxes, ellipticities and so on.
@@ -51,6 +57,9 @@ and look at the  distribution of gm_sq in each files.
 ```
 
 # July 16, 2019 Tue
+- Notebook link (may be slow) : https://github.com/bpRsh/2019_shear_analysis_after_dmstack/blob/master/june18_2019/july15_compare_shears_each_file.ipynb
+
+- Interactive link: https://nbviewer.jupyter.org/github/bpRsh/2019_shear_analysis_after_dmstack/blob/master/june18_2019/july15_compare_shears_each_file.ipynb
 
 ```
 Notebook: july15_compare_shears_each_file.ipynb
