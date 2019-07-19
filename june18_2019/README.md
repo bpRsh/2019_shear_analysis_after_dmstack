@@ -4,6 +4,8 @@ Table of Contents
    * [June 18, 2019 Tue](#june-18-2019-tue)
    * [June 20, 2019 Thu](#june-20-2019-thu)
    * [July 16, 2019 Tue](#july-16-2019-tue)
+   * [July 19, 2019 Fri](#july-19-2019-fri)
+
 
 # Introduction
 1. In jedisim we used ngals = 10k, z = 1.5 and did 100 simulations. jedisim gives l,l9,m,m9 for each 100 simulations respectively for lsst, lsst90, monochormatic and monochromatic90 cases. In jedisim we have total 100*4 = 400 fits files.
