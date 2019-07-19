@@ -70,3 +70,18 @@ I looked at 100 files (combination of l.csv, l9.csv, m.csv,m9.csv) and plotted t
 Most of the files have 180 objects in this range. 16 files have more than 200 objects that have reduced shear between 0.7 < gm_sq < 1.0.
 
 ```
+
+# July 19, 2019 Fri
+- Notebook link (may be slow) : https://github.com/bpRsh/2019_shear_analysis_after_dmstack/blob/master/june18_2019/july17_bad_density_of_100_lsst_files.ipynb
+
+- Interactive link: https://nbviewer.jupyter.org/github/bpRsh/2019_shear_analysis_after_dmstack/blob/master/june18_2019/july17_bad_density_of_100_lsst_files.ipynb
+
+```
+Notebook: july17_bad_density_of_100_lsst_files.ipynb
+
+Done:
+----
+I am mostly concerned in the range of 0.7 < e_sq < 1.0 for all objects in a given fitsfile (eg. wcs_psf_lsst_000.fits).
+I checked if specific file has much bad density than others. The result showed that most the lsst files have about 16-19% bad objects.
+There are no any outliers.
+```
