@@ -5,7 +5,7 @@ Table of Contents
    * [June 20, 2019 Thu](#june-20-2019-thu)
    * [July 16, 2019 Tue](#july-16-2019-tue)
    * [July 19, 2019 Fri](#july-19-2019-fri)
-
+   * [Aug 1, 2019](#aug-1-2019)
 
 # Introduction
 1. In jedisim we used ngals = 10k, z = 1.5 and did 100 simulations. jedisim gives l,l9,m,m9 for each 100 simulations respectively for lsst, lsst90, monochormatic and monochromatic90 cases. In jedisim we have total 100*4 = 400 fits files.
@@ -87,3 +87,6 @@ I am mostly concerned in the range of 0.7 < e_sq < 1.0 for all objects in a give
 I checked if specific file has much bad density than others. The result showed that most the lsst files have about 16-19% bad objects.
 There are no any outliers.
 ```
+
+# Aug 1, 2019
+https://nbviewer.jupyter.org/github/bpRsh/2019_shear_analysis_after_dmstack/blob/master/june18_2019/aug1_plot_e1_vs_e2.ipynb
