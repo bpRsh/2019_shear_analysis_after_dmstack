@@ -3,7 +3,7 @@
 - [a01_gmsq_bad_density_plot_nov1.ipynb](https://nbviewer.jupyter.org/github/bpRsh/2019_shear_analysis_after_dmstack/blob/master/Nov_2019/nov1_2019/a01_gmsq_bad_density_plot_nov1.ipynb)
 
 # Introduction
-Date: Nov 1, 2019
+Date: Nov 6, 2019
 
 final_text.txt is created by imcat program after merging four lsst files (m,m9,l,l9)
 after cleaning.
@@ -13,11 +13,11 @@ after cleaning.
 - After doing cleaning and using IMCAT to combine m,m9,l,l9 text files
   I got final_text.txt file which have columns like gm0 and gm1.
 - I plotted the number density of gmsq = gm0_sq + gm1_sq and saw that
-  there was a bump in the number density when 0.7 < gmsq < 1.0.
-- About 10% objects were bad objects (i.e. 0.7 < gmsq < 1.0).
+  there was a bump in the number density when 0.6 < gmsq < 1.0.
+- About 10% objects were bad objects (i.e. 0.6 < gmsq < 1.0).
 
 
-The filtering used to get clean text files from unclean dmstack csv files are given below:
+The filtering used to get clean text files from unclean dmstack csv files are given below    
 #-------------------------------------------------------------
 ```
 original dmstack output: src_lsst90_z1.5_000.csv,   shape = (7610, 167)
