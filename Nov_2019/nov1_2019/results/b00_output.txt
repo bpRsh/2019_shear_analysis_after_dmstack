@@ -1,0 +1,3 @@
+all objects = 183,830
+bad objects = 23,444
+bad objects percentage = 12.75% 
