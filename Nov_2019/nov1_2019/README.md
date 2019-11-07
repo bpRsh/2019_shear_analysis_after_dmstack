@@ -30,7 +30,7 @@ radius[0][0]   radius[1][0]   radius[2][0]   radius[3][0]
 gm[0]          gm[1]          gc[0]          gc[1]
 
 cat final_text.txt | wc -l # 183831  we have 183k rows
-each row is obtained after combining four files using IMCAT `mergecats 5 four_cats_files_names` and finally `catcats all rows`. 
+each row is obtained after combining four files using IMCAT `mergecats 5 m m9 l l9` and finally `catcats all rows`. 
 ```
 
 
