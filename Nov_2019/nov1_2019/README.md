@@ -28,11 +28,13 @@ shear[0][0]    shear[1][0]    shear[2][0]    shear[3][0]
 flux[0][0]     flux[1][0]     flux[2][0]     flux[3][0]   
 radius[0][0]   radius[1][0]   radius[2][0]   radius[3][0]          
 gm[0]          gm[1]          gc[0]          gc[1]
+
+cat final_text.txt | wc -l # 183831  we have 183k objects
 ```
 
 
 The filtering used to get clean text files from unclean dmstack csv files are given below    
-#--------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------
 ```
 original dmstack output: src_lsst90_z1.5_000.csv,   shape = (7610, 167)
 add two columns ellip and radius, shape = (7610, 169)
