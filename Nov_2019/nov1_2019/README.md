@@ -18,13 +18,13 @@ after cleaning.
 
 Head of src_lsst_mono_1.5_000.txt (ie. m)
 ```bash
-# file_number  id  base_SdssCentroid_x  base_SdssCentroid_y  base_SdssCentroid_xSigma  base_SdssCentroid_ySigma
+file_number  id  base_SdssCentroid_x  base_SdssCentroid_y  base_SdssCentroid_xSigma  base_SdssCentroid_ySigma
 ext_shapeHSM_HsmShapeRegauss_e1  ext_shapeHSM_HsmShapeRegauss_e2  shear  base_SdssShape_flux  radius
 ```
 
 Head of final_text.txt:
 ```bash
-#       fN[0][0]       fN[1][0]       fN[2][0]       fN[3][0]       
+fN[0][0]       fN[1][0]       fN[2][0]       fN[3][0]       
 id[0][0]       id[1][0]       id[2][0]       id[3][0]           
 x[0]           x[1]     
 errx[0][0]     errx[0][1]     errx[1][0]     errx[1][1]     errx[2][0]     errx[2][1]     errx[3][0]     errx[3][1]        
