@@ -16,6 +16,11 @@ after cleaning.
   there was a bump in the number density when 0.6 < gmsq < 1.0.
 - About 10% objects were bad objects (i.e. 0.6 < gmsq < 1.0).
 
+Head of src_lsst_mono_1.5_000.txt (ie. m)
+```bash
+# file_number  id  base_SdssCentroid_x  base_SdssCentroid_y  base_SdssCentroid_xSigma  base_SdssCentroid_ySigma
+ext_shapeHSM_HsmShapeRegauss_e1  ext_shapeHSM_HsmShapeRegauss_e2  shear  base_SdssShape_flux  radius
+```
 
 Head of final_text.txt:
 ```bash
