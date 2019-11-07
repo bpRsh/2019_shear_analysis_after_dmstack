@@ -33,7 +33,7 @@ cat final_text.txt | wc -l # 183831  we have 183k rows
 each row is obtained after combining four files using IMCAT `mergecats 5 m m9 l l9` and finally `catcats all rows`. 
 ```
 
-Some IMACAT commands used:
+Some IMCAT commands used:
 ```bash
 lc -C -n fN -n id -N '1 2 x' -N '1 2 errx' -N '1 2 g' -n shear -n flux -n radius < "${LT}".txt > "${LC}".cat
 mergecats 5 "${MC}".cat "${M9C}".cat "${LC}".cat "${L9C}".cat > merge.cat &&
