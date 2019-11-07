@@ -22,6 +22,18 @@ file_number  id  base_SdssCentroid_x  base_SdssCentroid_y  base_SdssCentroid_xSi
 ext_shapeHSM_HsmShapeRegauss_e1  ext_shapeHSM_HsmShapeRegauss_e2  shear  base_SdssShape_flux  radius
 ```
 
+Some IMCAT commands used:
+```bash
+lc -C -n fN -n id -N '1 2 x' -N '1 2 errx' -N '1 2 g' -n shear -n flux -n radius < "${LT}".txt > "${LC}".cat
+mergecats 5 "${MC}".cat "${M9C}".cat "${LC}".cat "${L9C}".cat > merge.cat &&
+
+lc -b +all 
+'x = %x[0][0] %x[1][0] + %x[2][0] + %x[3][0] + 4 / %x[0][1] %x[1][1] + %x[2][1] + %x[3][1] + 4 / 2 vector' 
+'gm = %g[0][0] %g[1][0] + 2 / %g[0][1] %g[1][1] + 2 / 2 vector' 
+'gc = %g[2][0] %g[3][0] + 2 / %g[2][1] %g[3][1] + 2 / 2 vector' 
+< merge.cat > final/final_${i}.cat
+```
+
 Head of final_text.txt:
 ```bash
 fN[0][0]       fN[1][0]       fN[2][0]       fN[3][0]       
@@ -36,19 +48,6 @@ gm[0]          gm[1]          gc[0]          gc[1]
 
 cat final_text.txt | wc -l # 183831  we have 183k rows
 each row is obtained after combining four files using IMCAT `mergecats 5 m m9 l l9` and finally `catcats all rows`. 
-```
-
-Some IMCAT commands used:
-```bash
-lc -C -n fN -n id -N '1 2 x' -N '1 2 errx' -N '1 2 g' -n shear -n flux -n radius < "${LT}".txt > "${LC}".cat
-mergecats 5 "${MC}".cat "${M9C}".cat "${LC}".cat "${L9C}".cat > merge.cat &&
-
-lc -b +all 
-'x = %x[0][0] %x[1][0] + %x[2][0] + %x[3][0] + 4 / %x[0][1] %x[1][1] + %x[2][1] + %x[3][1] + 4 / 2 vector' 
-'gm = %g[0][0] %g[1][0] + 2 / %g[0][1] %g[1][1] + 2 / 2 vector' 
-'gc = %g[2][0] %g[3][0] + 2 / %g[2][1] %g[3][1] + 2 / 2 vector' 
-< merge.cat > final/final_${i}.cat
-
 ```
 
 
