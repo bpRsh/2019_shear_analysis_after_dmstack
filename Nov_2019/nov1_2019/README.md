@@ -78,9 +78,9 @@ This gives extremely low number of objects. If we exclude nans there are ZERO
 objects. So I will include nans in errx and erry.
 ```
 if all 28 flags == False:
-    object is good (0.6 < gmsq < 1.0)
+    object is good 
 else:
-    object is bad.
+    object is bad (0.6 < gmsq < 1.0)
     
     
 all objects = 183,830
