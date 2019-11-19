@@ -5,7 +5,7 @@
    * - Notebook
      - Short description
      - Links
-     - Owner
+     - Author
 
 
    * - a01_plot_gsq_vs_gmdsq.ipynb
