@@ -52,5 +52,5 @@ df = df.dropna()
 - In IMCAT scripts, the quantity g is actually e. True g is g/2 in weak lensing limit.
 
 # Images
-![](images/gmsq_hist.png)
-![](images/gcsq_hist.png)
+![](images/gmsq_hist1.png)
+![](images/gcsq_hist1.png)
