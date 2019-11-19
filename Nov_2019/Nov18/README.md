@@ -3,6 +3,3 @@ https://nbviewer.jupyter.org/github/bpRsh/2019_shear_analysis_after_dmstack/blob
 
 # Plots
 ![](images/contour_plot.png)
-![](images/above_boundary.png)
-![](images/above_boundary_zoom.png)
-![](images/below_boundary.png)
