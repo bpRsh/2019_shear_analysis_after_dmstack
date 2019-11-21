@@ -1,3 +1,9 @@
+
+|  Notebook | Rendered   | Description  |  Author |
+|---|---|---|---|
+| a01_plot_gsq_vs_gmdsq.ipynb  | [rendered](https://nbviewer.jupyter.org/github/bpRsh/2019_shear_analysis_after_dmstack/blob/master/Nov_2019/Nov21/a01_plot_gsq_vs_gmdsq.ipynb)  |   | [Bhishan Poudel](https://bhishanpdl.github.io/)  |
+
+
 # Removed strong lens objects
 ```python
 #define OMEGA_M 0.315       //matter density of the universe today
