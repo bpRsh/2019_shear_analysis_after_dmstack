@@ -2,6 +2,8 @@
 |  Notebook | Rendered   | Description  |  Author |
 |---|---|---|---|
 | a01_plot_gsq_vs_gmdsq.ipynb  | [rendered](https://nbviewer.jupyter.org/github/bpRsh/2019_shear_analysis_after_dmstack/blob/master/Nov_2019/Nov21/a01_plot_gsq_vs_gmdsq.ipynb)  |   | [Bhishan Poudel](https://bhishanpdl.github.io/)  |
+| a02_create_rms_gmsq_bins.ipynb  | [rendered](https://nbviewer.jupyter.org/github/bpRsh/2019_shear_analysis_after_dmstack/blob/master/Nov_2019/Nov21/a02_create_rms_gmsq_bins.ipynb)  |   | [Bhishan Poudel](https://bhishanpdl.github.io/)  |
+
 
 
 # Removed strong lens objects
