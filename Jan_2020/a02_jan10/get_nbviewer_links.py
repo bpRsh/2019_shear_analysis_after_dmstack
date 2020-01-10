@@ -2,10 +2,12 @@ import sys
 import glob
 import os
 
+REPO = sys.argv[1]
+
 github = "https://github.com/"
 user = "bpRsh"
 project = "/2019_shear_analysis_after_dmstack"
-path = "/blob/master/Jan_2020/a01_jan8/"
+path = "/blob/master/Jan_2020/" + REPO + "/"
 nbview = "https://nbviewer.jupyter.org/github/"
 
 notebooks = sorted([ nb for nb in glob.glob('*.ipynb')])
