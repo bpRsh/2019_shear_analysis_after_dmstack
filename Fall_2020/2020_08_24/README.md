@@ -4,7 +4,7 @@
 | b01_ngals10k_z1.5_noise50.ipynb  | [ipynb](https://github.com/bpRsh/shear_analysis_after_dmstack/blob/master/Fall_2020/2020_08_24/b01_ngals10k_z1.5_noise50.ipynb), [rendered](https://nbviewer.jupyter.org/github/bpRsh/shear_analysis_after_dmstack/blob/master/Fall_2020/2020_08_24/b01_ngals10k_z1.5_noise50.ipynb)  |   | [Bhishan Poudel](https://bhishanpdl.github.io/)  |
 
 
-# Noise Comparison
+# Noise Comparison among ngals-10k-20k-50k and dmstackNoise-50-100
 ```
 """
 Note: total_objs = ngals * 20 (for 20 files)
