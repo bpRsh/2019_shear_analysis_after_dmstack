@@ -48,3 +48,14 @@ Best so far: noise 50 ngals10k  with 4% object detection.
 | 15 | 10k | 1.5 | 100 | 5418 | 200k | 2.7% |
 | 15 | 20k | 1.5 | 50 | 10721 | 400k | 2.68% |
 | 15 | 20k | 1.5 | 100 | 7473 | 400k | 1.86% |
+
+
+NOTES:  
+For these observations I have used 20 files. For 10k num galaxies they have 200k objects and for 20k num galaxies,
+they have 100k objects.
+
+From jedisim simulations I have these number of total simulations:
+```
+ngals10k ==> 162 files
+ngals20k ==> 300 files
+```
